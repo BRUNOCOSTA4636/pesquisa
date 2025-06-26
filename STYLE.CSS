@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0; padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+#searchInput {
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+nav {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+nav button {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav button:hover,
+nav button.active {
+  background: #004a99;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.content-section {
+  display: block;
+}
+
+.content-section[style*="display: none"] {
+  display: none !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+pre {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+<section id="informacoes" class="content-section" style="display:none;">
+  <h2>Informações sobre Belo Horizonte</h2>
+  <h3>Bairro Savassi</h3>
+  <p>
+    A Savassi é um dos bairros mais famosos e valorizados de Belo Horizonte, conhecido por sua vida cultural, gastronômica e comercial intensa.
+    Localizado na região Centro-Sul da cidade, abriga bares, restaurantes, lojas, além de ser ponto de encontro de jovens e turistas.
+  </p>
+  <p><strong>População:</strong> aproximadamente 35.000 habitantes (IBGE 2021).</p>
+  <p><strong>Principais características:</strong> grande oferta de serviços, intensa movimentação noturna, proximidade com áreas verdes como a Praça da Liberdade.</p>
+
+  <h3>Bairro Santa Efigênia</h3>
+  <p>
+    Santa Efigênia está situado na região Leste de Belo Horizonte e destaca-se por sua diversidade comercial, especialmente no comércio popular e de eletrônicos.
+    O bairro também possui áreas residenciais e espaços culturais.
+  </p>
+  <p><strong>População:</strong> aproximadamente 25.000 habitantes (IBGE 2021).</p>
+  <p><strong>Características principais:</strong> comércio popular, acessibilidade ao centro da cidade, diversidade cultural e presença de centros educacionais.</p>
+
+  <h3>Fontes:</h3>
+  <ul>
+    <li><a href="https://cidades.ibge.gov.br/brasil/mg/belo-horizonte/panorama" target="_blank" rel="noopener noreferrer">IBGE - Panorama Belo Horizonte</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Savassi" target="_blank" rel="noopener noreferrer">Wikipedia - Bairro Savassi</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Santa_Efig%C3%AAnia_(Belo_Horizonte)" target="_blank" rel="noopener noreferrer">Wikipedia - Bairro Santa Efigênia</a></li>
+    <li><a href="https://prefeitura.pbh.gov.br" target="_blank" rel="noopener noreferrer">Prefeitura de Belo Horizonte</a></li>
+  </ul>
+</section>
+

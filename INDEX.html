@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pesquisa de Mercado - Clínicas TEA/TDAH BH</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pesquisa de Mercado - Clínicas TEA/TDAH em Belo Horizonte</h1>
+    <input id="searchInput" type="search" placeholder="Pesquisar no relatório..." />
+    <nav>
+      <button data-section="perfil">Perfil Geral</button>
+      <button data-section="servicos">Serviços e Especialidades</button>
+      <button data-section="preco">Preço Médio</button>
+      <button data-section="convenios">Convênios</button>
+      <button data-section="pontos">Pontos Fortes e Fracos</button>
+      <button data-section="oportunidades">Oportunidades Estratégicas</button>
+      <button data-section="proposta">Modelo de Proposta</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="perfil" class="content-section">
+      <h2>1. Perfil Geral dos Concorrentes</h2>
+      <p><strong>Tipo de Clínica</strong></p>
+      <ul>
+        <li>Apenas Particular: 8 clínicas</li>
+        <li>Mista (Particular + Convênio): 3 clínicas</li>
+        <li>Apenas Convênio: 0 clínicas</li>
+      </ul>
+      <p>🔎 A maioria absoluta das clínicas não trabalha com convênios, o que indica alta barreira de acesso via plano de saúde, tornando o atendimento restrito à classe média e alta.</p>
+    </section>
+
+    <section id="servicos" class="content-section" style="display:none;">
+      <h2>2. Serviços e Especialidades Oferecidos</h2>
+      <p>Atendimento Multidisciplinar Completo (Psicologia, TO, Fono, etc.): presente em quase todas as clínicas.</p>
+      <p>ABA (Applied Behavior Analysis): presente em apenas 3 clínicas (Timi, Vínculo, Bem Saber).</p>
+      <p><strong>Serviços Diferenciados:</strong></p>
+      <ul>
+        <li>Musicoterapia (Abramente, Bambolê)</li>
+        <li>Psicologia TCC (Bem Saber)</li>
+        <li>Reforço escolar/contraturno (Aprendeline, Abramente)</li>
+        <li>Educação física funcional e psicomotricidade (Abramente)</li>
+      </ul>
+      <p>✅ Diferenciais como ABA, psicomotricidade e TCC são escassos, e representam oportunidade de destaque competitivo.</p>
+    </section>
+
+    <section id="preco" class="content-section" style="display:none;">
+      <h2>3. Preço Médio Particular por Sessão</h2>
+      <table>
+        <thead>
+          <tr><th>Valor Médio por Sessão</th><th>Clínicas</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Até R$ 160</td><td>Pé no Chão, Aprendeline</td></tr>
+          <tr><td>R$ 200 - R$ 250</td><td>Bem Saber, Bambolê, Espaçoleto</td></tr>
+          <tr><td>R$ 280 - R$ 300</td><td>Entre Laços, Prosence Kids</td></tr>
+          <tr><td>Sem dados</td><td>4 clínicas</td></tr>
+        </tbody>
+      </table>
+      <p>💡 O preço médio praticado está entre R$ 200 e R$ 250, com outliers como Prosence Kids (R$ 300) e Aprendeline (R$ 120), o que indica variação conforme localização e estrutura.</p>
+    </section>
+
+    <section id="convenios" class="content-section" style="display:none;">
+      <h2>4. Atuação com Convênios</h2>
+      <p><strong>Convênios Mais Atendidos:</strong></p>
+      <ul>
+        <li>Cemig Saúde</li>
+        <li>Saúde Postal</li>
+        <li>Amagis</li>
+        <li>Unimed (apenas 1 clínica)</li>
+        <li>Copass</li>
+        <li>Amil, Desban</li>
+      </ul>
+      <p>⚠️ Unimed aparece uma única vez (Espaçoleto), o que mostra grande escassez de clínicas realmente conveniadas com os principais planos da capital. Isso pode ser explorado como diferencial de entrada.</p>
+    </section>
+
+    <section id="pontos" class="content-section" style="display:none;">
+      <h2>5. Demandas, Pontos Fortes e Fracos</h2>
+      <p><strong>Demanda:</strong> Aparentemente Alta ou Média em todas as clínicas analisadas.</p>
+      <p>Clínicas com proposta educacional ou neurosensorial têm atraído público crescente.</p>
+      <p>Baixo tempo de espera informado apenas pela clínica Pé no Chão (1 min).</p>
+
+      <p><strong>Pontos Fortes Identificados:</strong></p>
+      <ul>
+        <li>Diversidade de terapias e integração multiprofissional</li>
+        <li>Abordagens alternativas (musicoterapia, TCC, psicomotricidade)</li>
+        <li>Atendimento especializado precoce (Vínculo, Abramente)</li>
+      </ul>
+
+      <p><strong>Pontos Fracos Comuns:</strong></p>
+      <ul>
+        <li>Não aceitam convênio</li>
+        <li>Não possuem neuropediatra ou psiquiatra infantil (exceto Entre Laços)</li>
+        <li>Pouca transparência sobre capacidade e tempo de espera</li>
+        <li>Alguns locais têm estrutura limitada (sem PED, sem sala para pais)</li>
+      </ul>
+    </section>
+
+    <section id="oportunidades" class="content-section" style="display:none;">
+      <h2>6. Oportunidades Estratégicas</h2>
+      <ul>
+        <li>Atendimento via convênios consolidados (Unimed, Amil, Bradesco Saúde) é um grande diferencial competitivo.</li>
+        <li>Oferecer neuropediatria + ABA + acompanhamento multidisciplinar num só espaço pode atrair famílias que hoje precisam se dividir entre clínicas.</li>
+        <li>Investir em infraestrutura acolhedora, inclusive com espaço para os pais ou sala sensorial.</li>
+        <li>Explorar público adolescente e adulto com TEA — hoje praticamente inexistente nas clínicas mapeadas.</li>
+        <li>Divulgação ativa nas redes e Google, pois muitas clínicas não têm avaliação/reputação visível.</li>
+      </ul>
+      <p>🧭 Conclusão Estratégica: mercado concentrado no modelo particular, oportunidade para clínicas mistas e multidisciplinares.</p>
+    </section>
+
+    <section id="proposta" class="content-section" style="display:none;">
+      <h2>Modelo de Proposta para Credenciamento</h2>
+      <pre style="white-space: pre-wrap; background: #eee; padding: 15px; border-radius: 8px; max-height: 400px; overflow-y: auto;">
+[LOGO DA CLÍNICA]
+
+Proposta de Credenciamento de Serviços Especializados – TEA/TDAH
+
+Destinatário: [Nome da operadora – ex: CEMIG Saúde]
+Data: [DD/MM/AAAA]
+
+1. Sobre a Clínica
+- Histórico, missão e valores
+- Instalações e equipe multidisciplinar
+
+2. Serviços Propostos
+- Avaliação diagnóstica e intervenções (ABA, TCC, psicomotricidade, fono, TO)
+- Neuropediatria e psiquiatria infantil
+
+3. Diferenciais
+- Atendimento por convênios
+- Infraestrutura acolhedora (sala sensorial, espaço para pais)
+- Relatórios regulares
+
+4. Proposta Comercial
+- Valores por modalidade
+- Tabela de honorários
+- Prazos e forma de faturamento
+
+5. Indicadores de Qualidade
+- Satisfação do paciente
+- Tempo médio de espera
+- Taxa de comparecimento
+
+6. Termos do Credenciamento
+- Vigência, documentação e condições
+
+7. Contatos
+- Responsável técnico e administrativo
+      </pre>
+      <p>Copie e adapte conforme a sua clínica para enviar às operadoras.</p>
+    </section>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
+<nav>
+  <!-- ... botoes já existentes ... -->
+  <button data-section="informacoes">Informações sobre BH</button>
+</nav>
+
